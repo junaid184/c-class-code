@@ -39,10 +39,12 @@ void display()
 		{
 			cout<<" "<<stack[i];
 		}
+		cout<<"\n top value is : "<<top;
 	}
 	else
 	{
 		cout<<"the stack is empty"<<endl;
+		cout<<"\n top value is : "<<top;
 	}
 }
 int main()
@@ -52,7 +54,7 @@ int main()
    cin>>n;
    cout<<"stack operation using array"<<endl;
    cout<<"---------------------------"<<endl;
-   cout<<"\n 1. push \n 2. pop \n 3. display \n exit"<<endl;
+   cout<<"\n 1. push \n 2. pop \n 3. display \n 4. exit"<<endl;
    do
    {
    		cout<<"\n enter the choice"<<endl;
